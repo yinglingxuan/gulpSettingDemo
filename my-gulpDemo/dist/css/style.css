@@ -1,0 +1,8 @@
+.reds{
+	color:blue;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: .5rem;
+}

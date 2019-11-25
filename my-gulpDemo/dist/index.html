@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>招标类别订阅设置</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/zepto.min.js"></script>
+</head>
+<body>
+	<div class="reds" style="width: 2rem;height: 2rem;background: url(images/demo.png);">
+		使用雪碧图
+		<!-- <img src="images/demo.png" /> -->
+	</div>
+</body>
+<script src="js/lib.js"></script>
+<script src="../src/lib/hotcss.js"></script>
+<script>
+    $('.group.flex3 .group-list').each(function () {
+        var _this = $(this);
+        _this.click(function () {
+            _this.toggleClass('current');
+        })
+    });
+</script>
+</html>

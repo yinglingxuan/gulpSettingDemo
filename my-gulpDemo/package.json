@@ -1,0 +1,38 @@
+{
+  "name": "gulp-demo",
+  "version": "1.1.1",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test demo"
+  },
+  "keywords": [
+    "es6",
+	"css"
+  ],
+  "style": "dist/css/demo.css",
+  "author": "yinglingxuan",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp.spritesmith": "^6.11.0"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-header": "^2.0.9",
+    "gulp-livereload": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-spritesmith": "0.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webserver": "^0.9.1",
+    "gulp.spritesmith": "^6.9.0"
+  }
+}
