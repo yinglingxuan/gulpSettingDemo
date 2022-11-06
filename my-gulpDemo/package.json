@@ -14,7 +14,7 @@
   "author": "yinglingxuan",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp.spritesmith": "^6.11.0"
   },
   "dependencies": {
